@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login User</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-box" method="POST" action="">
+            <img src="LogoRPL.jpeg" alt="Logo RPL" class="logo">
+            <p class="subtitle">Mulai Akses Akun User</p>
+            <h2>Login User</h2>
+
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+
+            <select name="status" required>
+                <option value="">-- Pilih Peran --</option>
+                <option value="siswa">Siswa</option>
+                <option value="guru">Guru</option>
+            </select>
+
+            <button type="submit" class="btn-login">Login</button>
+
+            <p class="register-text">Apakah Anda Belum Membuat Akun User?</p>
+            <a href="register.php" class="btn-register">Buat Akun User</a>
+            <br><br>
+            <a href="utama.php">Kembali ke Home</a>
+        </form>
+    </div>
+</body>
+</html>

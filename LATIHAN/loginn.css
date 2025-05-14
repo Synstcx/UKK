@@ -1,0 +1,93 @@
+/* loginn.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: white;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0;
+}
+
+h2 {
+    margin: 10px 0 20px;
+    font-size: 22px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #1d4ed8;
+}
+
+.register-text {
+    margin: 15px 0 5px;
+    font-size: 13px;
+    color: #374151;
+}
+
+.btn-register {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #10b981;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-register:hover {
+    background-color: #059669;
+}
+
+a {
+    color: #2563eb;
+    font-size: 13px;
+    text-decoration: none;
+}

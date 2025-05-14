@@ -1,0 +1,132 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-rpl {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-rpl img {
+    width: 32px;
+    height: 32px;
+}
+
+.logo-rpl h2 {
+    color: #2563eb; /* warna biru */
+}
+
+/* Nav kanan */
+nav a {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Wrapper form */
+.register-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+    background-color: #f9fafb;
+}
+
+/* Form styling */
+.register-form {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 500px;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #111827;
+}
+
+/* Form elements */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    color: #111827;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input[type="file"] {
+    border: 2px dashed #d1d5db;
+    background-color: #f9fafb;
+    padding: 30px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+select {
+    appearance: none;
+    background-color: #fff;
+}
+
+/* Tombol */
+.register-btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #1e40af;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #6b7280;
+    background-color: #f9fafb;
+}
